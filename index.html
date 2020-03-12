@@ -10,49 +10,37 @@
 </head>
 <body>
 
+  <section class="contact pad t-2 pad-2">
+    <div class="max-length">
+      <h1>send is a sweet little note</h1>
 
-<section class="contact pad t-2 pad-2">
-  <div class="max-length">
-    <h1>send is a sweet little note</h1>
-
-    <form class="push-0" method=POST" action=https://formspree.io/bradlet@algonquincollege.com">
-      <div class="push">
-        <label for="name">Name</label>
-        <input id="name" required>
-      </div>
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" name="_subject">
+            <option>Get a quote!</option>
+            <option>General question</option>
+            <option>Just to talk</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="details">What's up?</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+        <div>
+          <button class="btn btn-light mega" type="submit">Send message</button>
+        </div>
+      </form>
     </div>
-    <div class="push">
-      <label for="email">Your email</label>
-      <input id="email" type="email" placeholder="me@me.com" required>
-    </div>
-    <div class="push">
-      <label for="subject">Subject<label>
-        <select id="subject" "name_subject">
-          <option>Get a quote!</option>
-          <option>General question</option>
-          <option>Just to talk</option>
-        </select>
-      </div>
-      <div class="push>
-        <label for="details>What's up?</label>
-<section>
-  <div class="push">
-    <label for="subject">Subject</label>
-    <select id="subject">
-    <option> Get a quote!</option>
-    <option>Just to talk</option>
-</select>
-</div>
-<div class="push">
-  <label for="details">What's up?</label>
-  <textarea id="deatils" name="message"required></textarea>
-</div>
-<div>
-  <button class="btn btn-light mega" type="submit">Send message</button>
-</div>
-</form>
-</div>
-</section>
+  </section>
 
 </body>
 </html>

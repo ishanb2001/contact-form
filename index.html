@@ -10,11 +10,12 @@
 </head>
 <body>
 
+
 <section class="contact pad t-2 pad-2">
   <div class="max-length">
     <h1>send is a sweet little note</h1>
 
-    <form class="push-0">
+    <form class="push-0" method=POST" action=https://formspree.io/bradlet@algonquincollege.com">
       <div class="push">
         <label for="name">Name</label>
         <input id="name" required>
@@ -26,7 +27,7 @@
     </div>
     <div class="push">
       <label for="subject">Subject<label>
-        <select id="subject">
+        <select id="subject" "name_subject">
           <option>Get a quote!</option>
           <option>General question</option>
           <option>Just to talk</option>
@@ -35,19 +36,19 @@
       <div class="push>
         <label for="details>What's up?</label>
 <section>
-  <div>
+  <div class="push">
     <label for="subject">Subject</label>
     <select id="subject">
     <option> Get a quote!</option>
     <option>Just to talk</option>
 </select>
 </div>
-<div>
+<div class="push">
   <label for="details">What's up?</label>
-  <textarea id="deatils" required></textarea>
+  <textarea id="deatils" name="message"required></textarea>
 </div>
 <div>
-  <button type="submit">Send message</button>
+  <button class="btn btn-light mega" type="submit">Send message</button>
 </div>
 </form>
 </div>
